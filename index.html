@@ -1,0 +1,126 @@
+
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Penghitung Umur Online Berdasarkan Tanggal Lahir | SerbaBisa</title>
+  <meta name="description" content="Hitung umur berdasarkan tanggal lahir dalam tahun, bulan, dan hari menggunakan penghitung umur online gratis SerbaBisa. Tentukan sendiri tanggal perhitungannya.">
+  <meta name="robots" content="index, follow">
+  <meta name="theme-color" content="#155eef">
+
+  <link rel="stylesheet" href="../style.css">
+  <script src="../script.js" defer></script>
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav-wrap">
+      <a class="brand" href="../">Serba<span>Bisa</span></a>
+      <nav aria-label="Navigasi utama">
+        <a href="../">Beranda</a>
+        <a href="../kalkulator-diskon/">Kalkulator Diskon</a>
+        <a href="../kalkulator-persentase/">Persentase</a>
+        <a href="./">Penghitung Umur</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <div class="breadcrumb">
+      <a href="../">Beranda</a> / Penghitung Umur
+    </div>
+
+    <section class="page-intro">
+      <span class="eyebrow">KALKULATOR TANGGAL</span>
+      <h1>Penghitung Umur Online</h1>
+      <p>
+        Hitung umur dari tanggal lahir dalam tahun, bulan, dan hari.
+        Kamu juga bisa menentukan tanggal tertentu untuk mengetahui
+        umur pada tanggal tersebut.
+      </p>
+    </section>
+
+    <section class="calculator-layout" data-tool="umur">
+      <div class="panel">
+        <h2>Hitung umur kamu</h2>
+
+        <form>
+          <div class="field">
+            <label for="tanggalLahir">Tanggal lahir</label>
+            <input id="tanggalLahir" name="tanggalLahir"
+              type="date" required>
+          </div>
+
+          <div class="field">
+            <label for="tanggalHitung">Hitung umur pada tanggal</label>
+            <input id="tanggalHitung" name="tanggalHitung"
+              type="date" required>
+          </div>
+
+          <div class="form-actions">
+            <button class="button" type="submit">Hitung Umur</button>
+            <button class="button button-secondary" type="reset">Reset</button>
+          </div>
+
+          <p class="error-message" role="alert" aria-live="polite"></p>
+          <div class="result" role="status" aria-live="polite" hidden></div>
+        </form>
+      </div>
+
+      <aside class="info-panel">
+        <h2>Cara menggunakan</h2>
+        <ul>
+          <li>Pilih tanggal lahir yang benar.</li>
+          <li>Pilih tanggal untuk menghitung umur.</li>
+          <li>Tekan tombol Hitung Umur.</li>
+          <li>Lihat hasil dalam tahun, bulan, dan hari.</li>
+        </ul>
+        <p>
+          Untuk mengetahui umur saat ini, pilih tanggal hari ini
+          sebagai tanggal perhitungan.
+        </p>
+      </aside>
+    </section>
+
+    <article class="article">
+      <h2>Bagaimana umur dihitung?</h2>
+      <p>
+        Umur dihitung dengan membandingkan tanggal lahir dengan
+        tanggal yang dipilih untuk perhitungan. Sistem menghitung
+        tahun penuh terlebih dahulu, kemudian bulan dan hari yang
+        tersisa berdasarkan kalender.
+      </p>
+
+      <h2>Mengapa tanggal perhitungan dapat diubah?</h2>
+      <p>
+        Terkadang kita ingin mengetahui umur seseorang pada tanggal
+        tertentu di masa lalu atau masa depan. Dengan memilih tanggal
+        perhitungan sendiri, hasilnya tidak terbatas pada umur hari ini.
+      </p>
+
+      <h2>Pastikan tanggal yang dimasukkan benar</h2>
+      <p>
+        Periksa kembali tanggal, bulan, dan tahun lahir sebelum
+        menghitung. Hasil bergantung pada tanggal yang dimasukkan
+        dan menggunakan perhitungan kalender, bukan perkiraan jumlah
+        hari dalam satu tahun.
+      </p>
+
+      <h2>Kalkulator lainnya</h2>
+      <div class="related-tools">
+        <a href="../kalkulator-diskon/">Kalkulator Diskon</a>
+        <a href="../kalkulator-persentase/">Kalkulator Persentase</a>
+      </div>
+    </article>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <a class="brand footer-brand" href="../">Serba<span>Bisa</span></a>
+      <p>Alat online gratis untuk membantu aktivitas sehari-hari.</p>
+      <p>© <span data-year></span> SerbaBisa.</p>
+    </div>
+  </footer>
+</body>
+</html>
